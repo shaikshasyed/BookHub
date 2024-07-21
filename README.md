@@ -1,5 +1,4 @@
-<h1>Link: https://shabookhub.ccbp.tech/shelf</h1>
-
+<a href="https://shabookhub.ccbp.tech" target="_blank">Click To View Website</a>
 <details>
 
 <summary>Functionalities</summary>
@@ -115,40 +114,8 @@
   password: modest*6
 ```
 
-```text
-  username: chetan
-  password: vigor$life
-```
 
-```text
-  username: deepak
-  password: lightstar@1
-```
 
-```text
-  username: harshad
-  password: joy@85
-```
-
-```text
-  username: kapil
-  password: moon$008
-```
-
-```text
- username: rahul
- password: rahul@2021
-```
-
-```text
-  username: shravya
-  password: musical#stone
-```
-
-```text
-  username: saira
-  password: princess@9
-```
 
 <br/>
 </details>
