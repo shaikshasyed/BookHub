@@ -1,0 +1,70 @@
+.link-item {
+  cursor: pointer;
+  text-decoration: none;
+  flex: 0;
+  @media screen and (min-width: 768px) {
+    flex: 50%;
+  }
+}
+.book-item-container {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.book-item-cover-pic {
+  min-width: 133px;
+  height: 155px;
+  border-radius: 8px;
+}
+.book-item-content {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.book-title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #334155;
+}
+.book-author {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #475569;
+}
+.book-rating {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  color: #475569;
+}
+
+.star-icon {
+  height: 16px;
+  width: 16px;
+  color: #fbbf24;
+  border-radius: 1px;
+}
+
+.book-status {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #475569;
+}
+
+.status-styling {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #0284c7;
+}

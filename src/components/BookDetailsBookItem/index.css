@@ -1,0 +1,138 @@
+.book-item-details-profile-container {
+  padding-top: 5px;
+  padding-bottom: 10px;
+  @media screen and (min-width: 768px) {
+    padding-top:30px;
+    display: flex;
+  }
+}
+.book-item-details-cover-pic {
+  width: 235px;
+  height: 274px;
+  border-radius: 8px;
+}
+.book-item-details-profile-content {
+  text-align: center;
+  @media screen and (min-width: 768px) {
+    text-align: left;
+    padding: 30px 40px;
+  }
+}
+
+.book-item-details-title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  color: #334155;
+}
+.book-item-details-author-name {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #475569;
+}
+.book-item-details-rating {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #475569;
+}
+
+.book-item-details-star-icon {
+  height: 24px;
+  width: 24px;
+  color: #fbbf24;
+  margin: 8px;
+}
+
+.book-item-details-status {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #475569;
+  margin-right: 6px;
+}
+
+.book-item-details-status-styling {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #0284c7;
+  margin-left: 6px;
+}
+.line {
+  width: 90%;
+  min-width: 312px;
+  height: 0px;
+  border: 0.5px solid #94a3b8;
+  margin-top: 0px;
+  @media screen and (min-width: 768px) {
+    max-width: 1012px;
+    height: 0px;
+    margin-top: 20px;
+    border: 1px solid #94a3b8;
+  }
+}
+
+.book-item-details-content-container {
+  width: 90%;
+  margin-top: 0px;
+  text-align: left;
+    @media screen and (min-width: 768px) {
+        padding-bottom: 30px;
+
+    }
+}
+.about-author-heading {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #334155;
+  @media screen and (min-width: 768px) {
+    font-size: 24px;
+  }
+}
+
+.about-author-description {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #475569;
+  @media screen and (min-width: 768px) {
+    font-size: 14px;
+    line-height: 28px;
+  }
+}
+
+.about-book-heading {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #334155;
+  @media screen and (min-width: 768px) {
+    font-size: 24px;
+  }
+}
+
+.about-book-description {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #475569;
+  @media screen and (min-width: 768px) {
+    font-size: 16px;
+    line-height: 28px;
+  }
+}

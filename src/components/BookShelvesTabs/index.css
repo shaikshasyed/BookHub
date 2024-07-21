@@ -1,0 +1,30 @@
+.tab-button {
+  height: 24px;
+  color: #0284c7;
+  border: 1px solid #0284c7;
+  border-radius: 25px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  background-color: #f8fafc;
+  cursor: pointer;
+  @media screen and (min-width: 768px) {
+    border: none;
+    background-color: transparent;
+    color: #475569;
+    font-size: 16px;
+    width: 150px;
+    text-align:left;
+  }
+}
+
+.active-tab-button {
+  background-color: #0284c7;
+  color: #fff;
+  @media screen and (min-width: 768px) {
+    border: none;
+    background-color: transparent;
+    color: #0284c7;
+  }
+}

@@ -1,0 +1,46 @@
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+}
+.icons-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+.footer-icon-button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  outline: none;
+  margin: 8px;
+}
+@media screen and (min-width: 768px) {
+  .footer-icon-button {
+    margin: 10px;
+  }
+}
+.footer-icon {
+  color: #3d3c3c;
+  font-size: 16px;
+}
+@media screen and (min-width: 768px) {
+  .footer-icon {
+    font-size: 18px;
+  }
+}
+.contact-us {
+  font-family: HK Grotesk;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .contact-us {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
